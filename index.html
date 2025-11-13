@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cynthia Burns — Front End Developer</title>
+  <meta name="description" content="Cynthia (Cyndi) Burns — Front End Developer in Australia learning in public. Projects, About, and Contact." />
+
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="head-bar">
+      <div class="brand">
+        <span class="brand-name">Cynthia Burns</span>
+        <span class="handle-pill">@ausamericandev</span>
+      </div>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="btn btn-secondary" href="https://github.com/AusAmericanDev" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main" class="wrap">
+    <!-- HERO -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <!-- Small mark above the name; decorative, link already has aria-label -->
+        <a href="#about" aria-label="Go to About section">
+          <img class="hero-mark" src="images/download.png" alt="" />
+        </a>
+
+        <h1 class="hero-site-name" id="hero-title">AusAmericanDev</h1>
+        <p class="role-main">Front End Developer</p>
+        <p class="role-sub">American heart. Aussie life. Mom in tech.</p>
+
+        <ul class="hero-list">
+          <li>Learning the front-end core: HTML • CSS • JavaScript</li>
+          <li>Building small, real-world projects</li>
+          <li>Growing toward full stack — fundamentals first</li>
+        </ul>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#about">About Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects wrap" aria-labelledby="projects-title">
+      <header class="projects-head">
+        <h2 id="projects-title">Featured Projects</h2>
+        <p>Small, practical builds that reflect real learning and steady progress.</p>
+      </header>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="card-project feature" aria-labelledby="proj-mommode-title">
+          <div class="icon" aria-hidden="true">⏱</div>
+          <div>
+            <h3 id="proj-mommode-title">Mom Mode</h3>
+            <p class="desc">Quick, realistic coding tasks sorted by how much time you have — perfect for beginner devs chasing daily wins.</p>
+            <ul class="chips" aria-label="Tech stack">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-primary" href="bud.html">Open</a>
+              <a class="btn btn-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card-project" aria-labelledby="proj-landing-title">
+          <div class="icon" aria-hidden="true">💻</div>
+          <div>
+            <h3 id="proj-landing-title">Personal Landing Page</h3>
+            <p class="desc">My digital front door — a simple, soft-lavender space that captures my blend of American heart and Aussie life.</p>
+            <ul class="chips" aria-label="Tech stack">
+              <li>HTML</li><li>CSS</li>
+            </ul>
+            <div class="actions">
+              <a class="btn class btn-primary" href="#hero">View</a>
+              <a class="btn btn-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card-project" aria-labelledby="proj-faithspace-title">
+          <div class="icon" aria-hidden="true">✨</div>
+          <div>
+            <h3 id="proj-faithspace-title">FaithSpace (Mini MVP)</h3>
+            <p class="desc">A simple space for gratitude and prayer entries — private, minimal, and built with intention. Start small. Ship. Improve.</p>
+            <ul class="chips" aria-label="Tech stack">
+              <li>HTML</li><li>CSS</li><li>Firebase</li>
+            </ul>
+            <div class="actions">
+              <button class="btn btn-secondary" disabled aria-disabled="true">Coming Soon</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ABOUT -->
+  <section id="about" class="about wrap" aria-labelledby="about-title">
+    <h2 id="about-title">About Me</h2>
+
+    <p>Hi, I’m <strong>Cynthia Burns</strong> — originally from the U.S. and now building a tech career in Australia while raising two amazing kids. I’m learning in public, shipping small projects, and improving one build at a time.</p>
+
+    <p>I started coding to create a flexible, creative future — one where I can work remotely, challenge my brain, and still be present for my family. The messy couch setups, the toy dinosaurs next to VS Code — that’s my reality, and I’m not waiting for perfect conditions to grow.</p>
+
+    <p>Right now, I’m focused on mastering front-end development with the long-term goal of going full stack. I’m exploring roles, freelancing, and product ideas — discovering where I fit best by building things.</p>
+
+    <p class="about-cta">This site will evolve as I do — more projects, more learning, more proof of progress.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="site-footer wrap" role="contentinfo" aria-labelledby="contact-title">
+    <h2 id="contact-title">Let’s Connect</h2>
+    <p>I’m still exploring where I fit in tech, but I’m building and learning consistently. If you’d like to connect, collaborate, or follow my journey — reach out anytime.</p>
+
+    <div class="footer-cta">
+      <a class="btn btn-primary" href="mailto:cburnscode@gmail.com">Email Me</a>
+      <a class="btn btn-secondary" href="https://github.com/AusAmericanDev" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+
+    <small class="footnote">© 2025 Cynthia Burns — learning in public</small>
+  </footer>
+</body>
+</html>
